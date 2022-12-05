@@ -1,0 +1,140 @@
+body {
+  background-image: url(/starter-code/assets/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  color: white;
+}
+
+#genNav {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2.7px;
+  background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding: 25px 35px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+#genNav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+#genNav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1.5625rem;
+  text-decoration-color: #979797;
+  text-decoration-thickness: 0.15rem;
+}
+
+#genNav a:active {
+  text-decoration-color: white;
+}
+
+.num {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+}
+
+#launch {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: 4.75px;
+  position: absolute;
+  top: 20%;
+  left: 12%;
+}
+
+.techImg {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  height: 60%;
+}
+
+#techNum {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  color: #979797;
+}
+
+#term {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+  position: relative;
+  right: 1.1%;
+}
+
+#techName {
+  font-family: "Bellefair", serif;
+  font-size: 3.5rem;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.techDesc {
+  color: #d0d6f9;
+  line-height: 2.4rem;
+  width: 31vw;
+  height: 35vh;
+}
+
+.btnContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 20%;
+  height: 50vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 12%;
+  top: 41%;
+}
+
+button {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-color: black;
+  height: 13vh;
+  width: 13vh;
+  border-radius: 50%;
+  font-family: "Bellefair", serif;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 5%;
+}
+
+button:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+}
+
+.techContent {
+  /* border: 1px solid aliceblue; */
+  padding: 0;
+  position: absolute;
+  left: 25%;
+  top: 40%;
+}
+
+.term {
+  text-decoration: none;
+  color: #d0d6f9;
+  text-transform: uppercase;
+}
